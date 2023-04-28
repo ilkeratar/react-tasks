@@ -1,0 +1,46 @@
+#container{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list{
+    margin: 15px 0;
+}
+
+.list > li{
+    background-color: rgb(128, 180, 214);
+    color: aliceblue;
+    font-style: oblique;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn > button{
+    padding: 5px;
+    width: 60px;
+}
+.formArea > div{
+    margin-bottom:5px ;
+}
