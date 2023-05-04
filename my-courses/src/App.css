@@ -1,0 +1,42 @@
+.courseMainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardMain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.card{
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 30px;
+}
+.cardPrice{
+    font-style: italic;
+    color: red;
+}
+.cardDeleteBtn{
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    border:none;
+    background-color:rgb(137, 43, 226);
+    color: white;
+}
+.refleshDiv{
+    text-align: center;
+}
+.prevNextBtn{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: red;
+}
+.courseTitle{
+    text-align: center;
+    margin-bottom: 20px;
+}
